@@ -58,14 +58,10 @@ class MiningScreen(wx.Panel):
 
         # Add mining panel.
         self._Panel = MiningPanel(self, style=wx.dataview.DV_HORIZ_RULES)
-        sizer.Add(self._Panel, wx.SizerFlags().Border(wx.LEFT|wx.RIGHT|wx.TOP,
-                                                      main.PADDING_PX)
-                                              .Proportion(1.0)
-                                              .Expand())
+        sizer.Add(self._Panel, wx.SizerFlags().Border(wx.LEFT|wx.RIGHT|wx.TOP, main.PADDING_PX).Proportion(1.0).Expand())
 
         bottomSizer = wx.BoxSizer(orient=wx.HORIZONTAL)
-        sizer.Add(bottomSizer, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX)
-                                              .Expand())
+        sizer.Add(bottomSizer, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX).Expand())
 
         # Add balance displays.
         balances = wx.FlexGridSizer(2, 2, main.PADDING_PX)
