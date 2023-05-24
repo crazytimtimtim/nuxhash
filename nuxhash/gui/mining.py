@@ -54,7 +54,7 @@ class MiningScreen(wx.Panel):
         # Update balance periodically.
         self._Timer = wx.Timer(self)
         self.Bind(wx.EVT_TIMER, self._OnBalanceTimer, self._Timer)
-        self._Timer.Start(milliseconds=BALANCE_UPDATE_MIN*60*1e3)
+        self._Timer.Start(milliseconds=BALANCE_UPDATE_MIN*60000)
 
         # Add mining panel.
         self._Panel = MiningPanel(self, style=wx.dataview.DV_HORIZ_RULES)
