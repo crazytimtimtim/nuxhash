@@ -51,10 +51,7 @@ class BenchmarksScreen(wx.Panel):
         # Create inner scrolled area.
         innerWindow = ScrolledPanel(self)
         innerWindow.SetupScrolling()
-        sizer.Add(innerWindow, wx.SizerFlags().Border(wx.LEFT|wx.RIGHT|wx.TOP,
-                                                      main.PADDING_PX)
-                                              .Proportion(1.0)
-                                              .Expand())
+        sizer.Add(innerWindow, wx.SizerFlags().Border(wx.LEFT|wx.RIGHT|wx.TOP, main.PADDING_PX).Proportion(1).Expand())
         innerSizer = wx.BoxSizer(orient=wx.VERTICAL)
         innerWindow.SetSizer(innerSizer)
 
