@@ -20,8 +20,7 @@ class AboutScreen(wx.Panel):
         h_sizer = wx.BoxSizer(orient=wx.HORIZONTAL)
         self.SetSizer(h_sizer)
         v_sizer = wx.BoxSizer(orient=wx.VERTICAL)
-        h_sizer.Add(v_sizer, wx.SizerFlags().Proportion(1.0)
-                                            .Align(wx.ALIGN_CENTER))
+        h_sizer.Add(v_sizer, wx.SizerFlags().Proportion(1)Align(wx.ALIGN_CENTER))
 
         with open(LOGO_PATH, 'rb') as f:
             logo = wx.Image(f, type=wx.BITMAP_TYPE_PNG)
