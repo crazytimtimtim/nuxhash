@@ -39,8 +39,7 @@ class SettingsScreen(wx.Panel):
 
         # Add basic setting controls.
         basicForm = wx.Window(self)
-        sizer.Add(basicForm, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX)
-                                            .Expand())
+        sizer.Add(basicForm, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX).Expand())
         basicSizer = two_col_sizer(3)
         basicForm.SetSizer(basicSizer)
 
@@ -66,8 +65,7 @@ class SettingsScreen(wx.Panel):
                 self, label='API Keys', style=wx.CP_NO_TLW_RESIZE)
         self.Bind(
                 wx.EVT_COLLAPSIBLEPANE_CHANGED, self.OnPaneChange, apiCollapsible)
-        sizer.Add(apiCollapsible, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX)
-                                                 .Expand())
+        sizer.Add(apiCollapsible, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX).Expand())
         apiPane = apiCollapsible.GetPane()
         apiPaneSizer = wx.BoxSizer(orient=wx.VERTICAL)
         apiPane.SetSizer(apiPaneSizer)
@@ -105,8 +103,7 @@ class SettingsScreen(wx.Panel):
 
         # Add advanced setting controls.
         advancedForm = wx.Window(self)
-        sizer.Add(advancedForm, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX)
-                                               .Expand())
+        sizer.Add(advancedForm, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX).Expand())
         advancedSizer = two_col_sizer(3)
         advancedForm.SetSizer(advancedSizer)
 
@@ -137,8 +134,7 @@ class SettingsScreen(wx.Panel):
 
         # Add revert/save controls.
         saveForm = wx.Window(self)
-        sizer.Add(saveForm, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX)
-                                           .Right())
+        sizer.Add(saveForm, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX).Right())
         saveSizer = wx.BoxSizer(orient=wx.HORIZONTAL)
         saveForm.SetSizer(saveSizer)
 
