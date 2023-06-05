@@ -12,7 +12,7 @@ namespace connect
     {
         private static NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
 
-        private static string URL_ROOT   = "https://api-test.nicehash.com"; //use https://api2.nicehash.com for production
+        private static string URL_ROOT   = "https://api2.nicehash.com"; //use https://api2.nicehash.com for production
         private static string ORG_ID     = "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee";
         private static string API_KEY    = "ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj";
         private static string API_SECRET = "kkkkkkkk-llll-mmmm-nnnn-oooooooooooooooooooo-pppp-qqqq-rrrr-ssssssssssss";
