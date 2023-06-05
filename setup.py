@@ -79,11 +79,11 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/YoRyan/nuxhash',  # Optional
+    url='https://github.com/crazytimtimtim/nuxhash-fully-working',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
-    author='Ryan Young',  # Optional
+    author='Ryan Young, fixed by Crazytimtimtim',  # Optional
 
     # This should be a valid email address corresponding to the author listed
     # above.
