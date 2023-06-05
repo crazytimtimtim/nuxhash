@@ -7,7 +7,7 @@ from wx.lib.agw.hyperlink import HyperLinkCtrl
 from nuxhash.version import __copyright__, __version__
 
 
-WEBSITE = 'https://github.com/YoRyan/nuxhash'
+WEBSITE = 'https://github.com/crazytimtimtim/nuxhash-fully-working'
 LICENSE = 'https://www.gnu.org/licenses/gpl-3.0.html'
 
 LOGO_PATH = Path(os.path.dirname(__file__))/'icons'/'nuxhash_128x128.png'
