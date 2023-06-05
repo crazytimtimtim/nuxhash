@@ -252,9 +252,7 @@ class DeviceListRenderer(wx.dataview.DataViewCustomRenderer):
     def GetSize(self):
         boxes = [self.GetTextExtent(device['name']) for device in self._Devices]
         RADIUS = DeviceListRenderer.CORNER_RADIUS
-        return wx.Size(max(box.GetWidth() for box in boxes) + RADIUS*2,
-                       (sum(box.GetHeight() for box in boxes)
-                        + RADIUS*2*len(boxes) + RADIUS*(len(boxes) - 1)))
+        return wx.Size(max(box.GetWidth() for box in boxes) + RADIUS*2, (sum(box.GetHeight() for box in boxes) + RADIUS*2*len(boxes) + RADIUS*(len(boxes) - 1))) # causing error?
 
     def Render(self, cell, dc, state):
         position = cell.GetPosition()
