@@ -4,7 +4,10 @@ nuxhash is a [NiceHash](https://nicehash.com) cryptocurrency mining client for
 Linux. nuxhash consists of a headless daemon and an optional wxPython-based GUI.
 It is currently in beta.
 
-Donations: 3GWuZZehCcL2vmUZSxegqD7F8fKxNjqtPP
+Crazytimtimtim's branch: fixed all GUI and API bugs
+
+YoRyan (Original developer) Donations: 3GWuZZehCcL2vmUZSxegqD7F8fKxNjqtPP
+Crazytimtimtim Donations: 34XRYEQCgxxQib7xgCAfMR8tmjWKzeVdvM
 
 ## Features
 
@@ -59,13 +62,13 @@ Then, install nuxhash, either for the user only in his $home or globally (runnin
 user only:
 ```
 $ pip3 install pubsub
-$ pip3 install git+https://github.com/thetuxinator/nuxhash
+$ pip3 install git+https://github.com/crazytimtimtim/nuxhash
 ```
 
 globally as root:
 ```
 $ sudo pip3 install pubsub
-$ sudo pip3 install git+https://github.com/thetuxinator/nuxhash
+$ sudo pip3 install git+https://github.com/crazytimtimtim/nuxhash
 ```
 
 To start the daemon, run `nuxhashd`. To start the graphical interface, run `nuxhash-gui`.
