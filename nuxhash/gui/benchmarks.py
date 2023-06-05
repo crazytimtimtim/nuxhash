@@ -67,8 +67,7 @@ class BenchmarksScreen(wx.Panel):
             self._DeviceCp[device] = deviceCp
 
         bottomSizer = wx.BoxSizer(orient=wx.HORIZONTAL)
-        sizer.Add(bottomSizer, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX)
-                                              .Expand())
+        sizer.Add(bottomSizer, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX).Expand())
 
         # Create bottom controls.
         self._SelectTodo = wx.Button(self, label='Unmeasured')
