@@ -14,7 +14,7 @@ public class Exch
 {
 	private Log log = LogFactory.getLog(Exch.class);
 
-	private static final String URL_ROOT   = "https://api-test.nicehash.com/"; //use https://api2.nicehash.com for production
+	private static final String URL_ROOT   = "https://api2.nicehash.com/"; //use https://api2.nicehash.com for production
 	private static final String ORG_ID     = "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"; //get it here: https://test.nicehash.com/my/settings/keys or https://new.nicehash.com/my/settings/keys
 	private static final String API_KEY    = "ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj";
 	private static final String API_SECRET = "kkkkkkkk-llll-mmmm-nnnn-oooooooooooooooooooo-pppp-qqqq-rrrr-ssssssssssss";
