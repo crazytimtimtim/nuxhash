@@ -76,7 +76,7 @@ To start the daemon, run `nuxhashd`. To start the graphical interface, run `nuxh
 
 ### Donation Fee
 
-nuxhash will donate 0.5% of its mining time to me. If you don't like this, you
+nuxhash will donate 1% of its mining time to me. If you don't like this, you
 may opt out by setting the flag in the configuration file (located by default at
 `~/.config/nuxhash/settings.conf`). Currently, there are no penalties if you do
 so, but please consider sending me a one-time donation.
