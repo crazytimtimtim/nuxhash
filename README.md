@@ -4,7 +4,7 @@ nuxhash is a [NiceHash](https://nicehash.com) cryptocurrency mining client for
 Linux. nuxhash consists of a headless daemon and an optional wxPython-based GUI.
 It is currently in beta.
 
-Crazytimtimtim's branch: fixed all GUI and API bugs
+Crazytimtimtim's branch fixes all GUI and API bugs. Original repo (now archived) can be found [here](https://github.com/YoRyan/nuxhash).
 
 YoRyan (Original developer) Donations: 3GWuZZehCcL2vmUZSxegqD7F8fKxNjqtPP
 
